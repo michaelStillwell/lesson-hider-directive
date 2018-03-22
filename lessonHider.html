@@ -1,0 +1,5 @@
+<li ng-style="myStyle">
+    {{ lesson }}
+</li>
+<button ng-click="dayAlert({ lesson: lesson, day: lessonDay })">Get Day</button>    
+<input ng-class="{'active': isActive}" type="checkbox" ng-model="striked" ng-click="myStyle={'text-decoration': 'line-through'}"  />
